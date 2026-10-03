@@ -14,6 +14,8 @@
         
         .hero { text-align: center; padding: 40px 20px; background-color: var(--lilac); margin: 20px 0; border-radius: 8px; }
         .hero h1 { color: var(--purple); margin-bottom: 8px; font-family: Georgia, serif; }
+        .hero p { margin: 6px 0; line-height: 1.5; }
+        .location-tag { font-weight: bold; color: var(--purple); background: #ffffff; display: inline-block; padding: 6px 14px; border-radius: 15px; margin-top: 10px; border: 1px solid var(--purple); }
 
         section { margin-top: 30px; }
         h2 { color: var(--purple); border-bottom: 2px solid var(--lilac); padding-bottom: 8px; font-family: Georgia, serif; }
@@ -24,6 +26,8 @@
         .price { font-weight: bold; color: var(--purple); font-size: 16px; margin: 10px 0; }
         button { background-color: var(--purple); color: white; border: none; padding: 10px 18px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
         button:hover { opacity: 0.85; }
+
+        footer { text-align: center; margin-top: 40px; padding: 20px; background: var(--lilac); border-radius: 8px; color: var(--purple); font-size: 14px; }
     </style>
 </head>
 <body>
@@ -34,7 +38,8 @@
 
     <div class="hero">
         <h1>Elegance in Every Detail</h1>
-        <p>Discover our exclusive ladies wear and fine jewelry collections</p>
+        <p>Welcome to <strong>Lilac & Lace</strong> — your premier boutique for high-quality ladies wear, elegant dresses, and exquisite jewelry accessories designed to elevate your everyday confidence.</p>
+        <div class="location-tag">📍 Visit Us: The Smith, Kanisani Eden Close, Ongata Rongai</div>
     </div>
 
     <section>
@@ -84,6 +89,10 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <p><strong>Lilac & Lace Boutique</strong> • Located at The Smith, Kanisani Eden Close, Ongata Rongai</p>
+    </footer>
 
     <script>
         let count = 0;
